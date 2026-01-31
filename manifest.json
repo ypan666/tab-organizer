@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Organizer",
+  "version": "2.0",
+  "description": "Smart tab management - automatically archive inactive tabs to keep your browser clean and focused",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
